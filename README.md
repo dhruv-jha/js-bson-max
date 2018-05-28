@@ -1,3 +1,7 @@
+# BSON MAX
+
+This repository and npm package is a clone of BSON with it's max buffer size set to `0x7fffffff`
+
 # BSON parser
 
 BSON is short for Bin­ary JSON and is the bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments. You can learn more about it in [the specification](http://bsonspec.org).
@@ -42,7 +46,7 @@ A simple example of how to use BSON in `Node.js`:
 
 ```js
 // Get BSON parser class
-var BSON = require('bson')
+var BSON = require('bson-max')
 // Get the Long type
 var Long = BSON.Long;
 // Create a bson parser instance
@@ -62,7 +66,7 @@ console.log('doc_2:', doc_2)
 
 ## Installation
 
-`npm install bson`
+`npm install bson-max`
 
 ## API
 
