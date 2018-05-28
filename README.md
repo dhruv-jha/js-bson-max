@@ -1,6 +1,6 @@
 # BSON MAX
 
-This repository and npm package is a clone of BSON with it's max buffer size set to `0x7fffffff`
+This repository and npm package is a clone of BSON with it's max buffer size set to `1024 * 1024 * 500`
 
 # BSON parser
 
